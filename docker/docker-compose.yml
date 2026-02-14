@@ -1,1 +1,6 @@
+services:
+  tests:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
 
