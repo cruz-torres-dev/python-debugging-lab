@@ -1,1 +1,7 @@
+Traceback (most recent call last):
+  File "/app/src/buggy/parser.py", line 6, in get_user_id
+    data = json.loads(payload)
+  File "/usr/local/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
 
