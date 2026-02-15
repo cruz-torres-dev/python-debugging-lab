@@ -13,5 +13,8 @@ Focused on debugging via logs/traces and runtime behavior.
 
 ## Run locally
 ```bash
+## Run with Docker
+```bash
+docker compose -f docker/docker-compose.yml run --rm tests
 pip install -r requirements.txt
 python -m pytest -q
