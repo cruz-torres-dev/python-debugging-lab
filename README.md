@@ -1,10 +1,11 @@
 [![tests](https://github.com/cruz-torres-dev/python-debugging-lab/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/cruz-torres-dev/python-debugging-lab/actions/workflows/tests.yml)
+
 # python-debugging-lab
 
-Small, real-world Python bugfix cases (buggy vs fixed) with tests and Docker.
-Focused on debugging via logs/traces and runtime behavior.
+Small, real-world Python bugfix cases (buggy vs fixed) with tests and Docker. Focused on debugging via logs/traces and runtime behavior.
 
 ## Project structure
+
 - `src/buggy/`: intentionally buggy implementations
 - `src/fixed/`: corrected implementations
 - `tests/`: regression tests (pytest)
@@ -12,9 +13,7 @@ Focused on debugging via logs/traces and runtime behavior.
 - `docker/`: Dockerfile + docker-compose
 
 ## Run locally
+
 ```bash
-## Run with Docker
-```bash
-docker compose -f docker/docker-compose.yml run --rm tests
 pip install -r requirements.txt
 python -m pytest -q
