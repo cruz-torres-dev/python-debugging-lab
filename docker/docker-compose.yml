@@ -3,4 +3,4 @@ services:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    command: ["python", "-m", "pytest", "-q"]
+    working_dir: /app
