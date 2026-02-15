@@ -1,4 +1,4 @@
-![tests](https://github.com/cruz-torres-dev/python-debugging-lab/actions/workflows/tests.yml/badge.svg)
+[![tests](https://github.com/cruz-torres-dev/python-debugging-lab/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/cruz-torres-dev/python-debugging-lab/actions/workflows/tests.yml)
 # python-debugging-lab
 
 Small, real-world Python bugfix cases (buggy vs fixed) with tests and Docker.
