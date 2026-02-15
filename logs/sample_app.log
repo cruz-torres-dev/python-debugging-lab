@@ -1,1 +1,5 @@
+2026-02-15 00:32:11,120 INFO  app.request request_id=ab12 endpoint=/parse payload_len=18
+2026-02-15 00:32:11,121 ERROR app.parser request_id=ab12 error="Invalid JSON" raw_payload="{bad json}"
+2026-02-15 00:32:11,122 INFO  app.request request_id=ab13 endpoint=/payments items=3
+2026-02-15 00:32:11,123 ERROR app.payments request_id=ab13 error="Invalid item type: <class 'str'>"
 
